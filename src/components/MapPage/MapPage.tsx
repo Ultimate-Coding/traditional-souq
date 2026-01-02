@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 import { getAllShops } from '../../utils/shopUtils';
-import { Shop } from '../../types';
 import './MapPage.css';
 import 'leaflet/dist/leaflet.css';
 

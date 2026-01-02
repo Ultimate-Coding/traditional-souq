@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { findShopById } from '../../utils/shopUtils';
-import { Shop } from '../../types';
 import './ShopDetails.css';
 
 export const ShopDetails: React.FC = () => {

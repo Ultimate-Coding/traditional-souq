@@ -1,4 +1,4 @@
-import { Category, Shop } from '../types';
+import { Shop } from '../types';
 import { mockData } from '../data/mockData';
 
 /**
