@@ -1,8 +1,21 @@
+export interface Coordinates {
+  latitude: number;
+  longitude: number;
+}
+
 export interface Shop {
   id: string;
   name: string;
   description: string;
   image: string;
+  imageUrl?: string; // Alias for image
+  coordinates?: Coordinates;
+  price?: string;
+  location?: string;
+  hours?: string;
+  contact?: string;
+  rating?: number;
+  additionalInfo?: string;
 }
 
 export interface SubCategory {

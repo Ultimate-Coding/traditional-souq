@@ -1,5 +1,5 @@
 .category-tabs {
-  background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+  background: transparent;
   padding: 1.5rem 1rem;
   box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
   position: sticky;

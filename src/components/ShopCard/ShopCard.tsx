@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { Shop } from '../../types';
 import './ShopCard.css';
 
@@ -6,8 +7,14 @@ interface ShopCardProps {
 }
 
 export const ShopCard: React.FC<ShopCardProps> = ({ shop }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/shop/${shop.id}`);
+  };
+
   return (
-    <div className="shop-card">
+    <div className="shop-card" onClick={handleClick}>
       <div className="shop-card__image-container">
         <img 
           src={shop.image} 
