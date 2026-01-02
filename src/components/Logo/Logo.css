@@ -1,0 +1,46 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo--clickable {
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.logo--clickable:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.logo--clickable:active {
+  transform: scale(0.98);
+}
+
+.logo__svg {
+  display: block;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Size variants */
+.logo--small .logo__svg {
+  width: 80px;
+  height: 67px;
+}
+
+.logo--medium .logo__svg {
+  width: 120px;
+  height: 100px;
+}
+
+.logo--large .logo__svg {
+  width: 180px;
+  height: 150px;
+}
+
+/* For landing page */
+.landing-page .logo__svg {
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
+}
+

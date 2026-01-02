@@ -17,5 +17,5 @@ export interface Category {
   subCategories: SubCategory[];
 }
 
-export type CategoryId = 'food' | 'spices' | 'textiles' | 'handicrafts';
+export type CategoryId = 'food' | 'spices' | 'textiles' | 'handicrafts' | 'sweets' | 'books' | 'drinks';
 
