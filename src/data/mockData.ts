@@ -417,18 +417,51 @@ export const mockData: Category[] = [
             id: 'shop-56',
             name: 'Knowledge Hub',
             description: 'A wide range of educational books and learning materials for all ages.',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
+            image: 'images/book.jpg',
+            imageUrl: 'images/book.jpg',
             coordinates: { latitude: 25.2857, longitude: 51.5307 },
             price: '8 - 40 JOD'
           },
           {
             id: 'shop-57',
-            name: 'Academia Books',
-            description: 'Books and resources to support students and lifelong learners.',
-            image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
+            name: 'Smart Reads',
+            description: 'Educational books that inspire curiosity, learning, and skill development.',
+            image: 'images/book2.jpg',
+            imageUrl: 'images/book2.jpg',
             coordinates: { latitude: 25.2835, longitude: 51.5325 },
+            price: '10 - 50 JOD'
+          }
+        ]
+      },
+      {
+        id: 'poetry',
+        name: 'Poetry & Literature',
+        shops: [
+          {
+            id: 'shop-56',
+            name: 'The Poet’s Corner',
+            description: 'A cozy shop for lovers of poetry and literature, offering classic and contemporary works.',
+            image: 'images/poet.jpg',
+            imageUrl: 'images/poet.jpg',
+            coordinates: { latitude: 25.2860, longitude: 51.5340 },
+            price: '8 - 40 JOD'
+          },
+          {
+            id: 'shop-57',
+            name: 'Rhythm & Rhyme',
+            description: 'A curated collection of poetry books and literary treasures for all ages.',
+            image: 'images/poet2.jpg',
+            imageUrl: 'images/poet2.jpg',
+            coordinates: { latitude: 25.2862, longitude: 51.5341 },
+            price: '10 - 50 JOD'
+          },
+          {
+            id: 'shop-57',
+            name: 'Words & Wonders',
+            description: 'Your destination for unique poetry collections and literary masterpieces.',
+            image: 'images/poet3.jpg',
+            imageUrl: 'images/poet3.jpg',
+            coordinates: { latitude: 25.2864, longitude: 51.5343 },
             price: '10 - 50 JOD'
           }
         ]
@@ -440,29 +473,20 @@ export const mockData: Category[] = [
     name: 'Drinks',
     subCategories: [
       {
-        id: 'traditional-drinks',
-        name: 'Traditional Drinks',
+        id: 'cold-drinks',
+        name: 'Cold Drinks',
         shops: [
           {
-            id: 'shop-58',
-            name: 'Herbal Tea House',
-            description: 'Traditional herbal teas: sage, chamomile, mint, and regional blends.',
-            image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            coordinates: { latitude: 25.2847, longitude: 51.5315 },
-            price: '2 - 12 JOD'
-          },
-          {
-            id: 'shop-59',
-            name: 'Qahwa & Coffee',
-            description: 'Traditional Arabic coffee, Turkish coffee, and premium coffee beans.',
-            image: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
+            id: 'shop-454545',
+            name: 'Icy Refresh',
+            description: 'A wide variety of iced beverages, juices, and cold refreshments.',
+            image: '/images/cold.jpg',
+            imageUrl: '/images/cold.jpg',
             coordinates: { latitude: 25.2863, longitude: 51.5305 },
             price: '3 - 15 JOD'
           },
           {
-            id: 'shop-60',
+            id: 'shop-56565656565656',
             name: 'Fresh Juices',
             description: 'Freshly squeezed juices: pomegranate, orange, carrot, and mixed blends.',
             image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
@@ -473,53 +497,39 @@ export const mockData: Category[] = [
         ]
       },
       {
-        id: 'spices-tea',
-        name: 'Spiced Teas',
+        id: 'hot-drinks',
+        name: 'Hot Drinks',
         shops: [
           {
-            id: 'shop-61',
-            name: 'Spice Tea Blends',
-            description: 'Traditional spiced tea blends: cardamom, cinnamon, and ginger teas.',
-            image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
+            id: 'shop-34343434',
+            name: 'The Cozy Cup',
+            description: 'Warm up with our selection of teas, coffees, and traditional hot drinks.',
+            image: '/images/drink.jpg',
+            imageUrl: '/images/drink.jpg',
             coordinates: { latitude: 25.2865, longitude: 51.5318 },
-            price: '2.5 - 14 JOD'
+            price: '3 - 6 JOD'
           },
           {
-            id: 'shop-62',
-            name: 'Herbal Infusions',
-            description: 'Natural herbal drinks and traditional medicinal beverages.',
-            image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
+            id: 'shop-66767',
+            name: 'Herbal Haven',
+            description: 'A variety of herbal teas and hot drinks for relaxation and wellness.',
+            image: '/images/drink2.jpg',
+            imageUrl: '/images/drink2.jpg',
             coordinates: { latitude: 25.2840, longitude: 51.5303 },
-            price: '2 - 10 JOD'
+            price: '3 - 10 JOD'
+          }, 
+          {
+            id: 'shop-7787878',
+            name: 'Coffee & Chai Corner',
+            description: 'Classic coffees, spiced chai, and hot beverages made to perfection.',
+            image: '/images/coffee.jpg',
+            imageUrl: '/images/coffee.jpg',
+            coordinates: { latitude: 25.2842, longitude: 51.5343 },
+            price: '3 - 6 JOD'
           }
         ]
       },
-      {
-        id: 'beverages',
-        name: 'Beverages',
-        shops: [
-          {
-            id: 'shop-63',
-            name: 'Cold Drinks Stall',
-            description: 'Refreshing cold beverages: traditional drinks and modern options.',
-            image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            coordinates: { latitude: 25.2853, longitude: 51.5323 },
-            price: '1 - 5 JOD'
-          },
-          {
-            id: 'shop-64',
-            name: 'The Beverage Corner',
-            description: 'Wide selection of drinks: juices, sodas, and traditional beverages.',
-            image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            imageUrl: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80',
-            coordinates: { latitude: 25.2867, longitude: 51.5307 },
-            price: '1.2 - 6 JOD'
-          }
-        ]
-      }
+      
     ]
   }
 ];

@@ -34,7 +34,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
         </div>
 
         <button className="landing-page__button" onClick={onEnter}>
-          <span className="button-text">Enter the Market</span>
+          <span className="button-text">Enter Souq</span>
           <span className="button-icon">→</span>
         </button>
       </div>

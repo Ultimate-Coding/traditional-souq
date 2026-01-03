@@ -61,7 +61,7 @@ export const MapPage: React.FC = () => {
           onClick={() => navigate('/market')} 
           className="map-page__back-button"
         >
-          ← Back to Market
+          ← Back to Souq
         </button>
         <h1 className="map-page__title">Shop Locations</h1>
         <p className="map-page__subtitle">

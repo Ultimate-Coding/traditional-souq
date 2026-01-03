@@ -3,13 +3,20 @@ import { mockData } from '../data/mockData';
 
 /**
  * Get all shops from all categories and subcategories
+ * Removes duplicates based on shop ID
  */
 export const getAllShops = (): Shop[] => {
   const shops: Shop[] = [];
+  const seenIds = new Set<string>();
   
   mockData.forEach((category) => {
     category.subCategories.forEach((subCategory) => {
-      shops.push(...subCategory.shops);
+      subCategory.shops.forEach((shop) => {
+        if (!seenIds.has(shop.id)) {
+          seenIds.add(shop.id);
+          shops.push(shop);
+        }
+      });
     });
   });
   

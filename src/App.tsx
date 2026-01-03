@@ -49,10 +49,16 @@ function MarketContent() {
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategoryId(categoryId);
     setSelectedSubCategoryId(null);
+    setSearchQuery('');
+    setIsSearching(false);
+    setSearchResults([]);
   };
 
   const handleSubCategorySelect = (subCategoryId: string) => {
     setSelectedSubCategoryId(subCategoryId);
+    setSearchQuery('');
+    setIsSearching(false);
+    setSearchResults([]);
   };
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
